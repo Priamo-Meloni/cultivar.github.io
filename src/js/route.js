@@ -5,7 +5,7 @@
         'views/nav.view',
         'views/welcome.view',
         'views/about.view',
-        'views/map.view'
+        'views/map.view',
         'views/prize.view'
     ], function (navView, welcomeView, aboutView, mapView, prizeView) {
         return function ($stateProvider, $urlRouterProvider) {
