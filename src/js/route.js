@@ -14,7 +14,7 @@
                 .state('home', navView)
                 .state('home.welcome', welcomeView)
                 .state('home.about', aboutView)
-                .state('home.map', mapView);
+                .state('home.map', mapView)
                 .state('home.prize', prizeView);
         };
     });
